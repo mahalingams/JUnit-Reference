@@ -1,0 +1,40 @@
+# Created at 2021-08-25T09:19:50.752
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2021-08-25 09:19:50 INFO  Agent:? - agent premain invoked'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2021-08-25 09:19:50 INFO  Agent:? - agent premain invoked'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2021-08-25T09:19:50.755
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2021-08-25 09:19:50 INFO  Agent:? - injecting jautomator agent - agentArgs : null'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2021-08-25 09:19:50 INFO  Agent:? - injecting jautomator agent - agentArgs : null'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2021-08-25T09:19:50.760
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2021-08-25 09:19:50 INFO  a:? - modefile:null'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2021-08-25 09:19:50 INFO  a:? - modefile:null'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2021-08-25T09:19:50.765
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '2021-08-25 09:19:50 INFO  Agent:? - agent criteria not met. Not triggering jautomator'.
+java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command '2021-08-25 09:19:50 INFO  Agent:? - agent criteria not met. Not triggering jautomator'.
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:507)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.processLine(ForkClient.java:210)
+	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient.consumeLine(ForkClient.java:177)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.run(ThreadedStreamConsumer.java:88)
+	at java.lang.Thread.run(Unknown Source)
+
+
